@@ -47,6 +47,6 @@ If you are new to dotnet and VS Code, take a little time to familiarize yourself
 
 `dotnet build d:\convert-tokens\convert-tokens.csproj` etc.
 
-`God mode:` You probably already wrote your own smalltalk script or used a LLM to do this. Why are you even here?
+**God mode**: You probably already wrote your own smalltalk script or used a LLM to do this. Why are you even here?
 
 EOF
