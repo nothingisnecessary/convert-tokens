@@ -19,7 +19,7 @@ todo: somebody can add option to preserve original file structure versus flatten
 
 `maskFileFilePath` (Required) mask file to use for transparency. should have center part (or whatever part you like) transparent so the artwork shows through!
 
-use a consistent color for the mask. see `overlays` folder for sample mask files in 256x256 px
+use a consistent color for the mask. see the overlays folder for sample mask files in 256x256 px
 
 `borderFilePath` (Optional) image file for border. usually a "donut" shape with outside and inside transparent, matching the mask (but should usually overlap mask by about 1px on either side to avoid ugly antialiasing and stuff
 
