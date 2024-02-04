@@ -1,5 +1,5 @@
 # convert-tokens
-Resize and Convert images to transparent bordered tokens for VTTs
+Batch resize and convert images to transparent bordered tokens for VTTs
 
 ## Usage
 
@@ -39,14 +39,18 @@ If you make your own overlays, the mask should be a solid color because the tool
 
 ## How to Build and use it
 
-**Easy mode**: Download the dotnet 8 SDK from Microsoft and then use VS Code (both are free) to open the solution. It will pretty much do everything for you.
+Download the dotnet 8 SDK from Microsoft. Compile the application by opening the solution in an IDE like Visual Studio or VS Code, or compile via your console:
 
-If you are new to dotnet and VS Code, take a little time to familiarize yourself. But basically open the solution in Solution Explorer and hit CTRL+F5 to build/run, or look for a Build menu. Use Terminal to find the file convert-tokens.exe and invoke it with no parameters to see the list of required parameters.
+`dotnet build convert-tokens.csproj`
 
-**Pro mode**: If you are a dotnet programmer you probably know other ways to build it.
+For examples see:
+https://learn.microsoft.com/en-us/training/paths/build-dotnet-applications-csharp/
+https://code.visualstudio.com/docs/csharp/get-started
 
-`dotnet build d:\convert-tokens\convert-tokens.csproj` etc.
+Build the executable `convert-tokens.exe` and invoke it without any parameters to see the list of required parameters, or use the parameters listed above.
 
-**God mode**: You probably already wrote your own smalltalk script or used a LLM to do this. Why are you even here?
+## Sample Output from ShadowDarkToken Project
+
+The ShadowDarkTokenProject folder shows an example set of batch-processed output, by using AI generated tokens from ShadowDarkToken Project which is curated by WoolyBeard over at the official The AL server. Thanks to WoolyBeard and the ShadowDarkToken Project contributors.
 
 EOF
